@@ -1,0 +1,14 @@
+name: Rjobun Python
+ON:
+    push:
+
+jobs:
+    build:
+        name: run py1
+        runs-on: ubuntu-Iatest
+        steps:
+        - uses: actions/checkout@v2
+        - name: run python
+          run: |
+            python3 test.py # test
+
