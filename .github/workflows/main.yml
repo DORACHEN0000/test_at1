@@ -1,5 +1,5 @@
 name: Rjobun Python
-ON:
+on:
     push:
 
 jobs:
